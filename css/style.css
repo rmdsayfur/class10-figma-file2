@@ -1,0 +1,273 @@
+/* gogle fonts linking */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+/* global css */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "DM Sans", sans-serif;
+    font-size: 16px;
+
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+a,a:hover{
+    text-decoration: none;
+}
+
+/* header section css */
+
+header{
+    width: 100%;
+    height: 100vh;
+    background: url(../imglucid/banner.png) center center no-repeat;
+    background-size: cover;
+   
+}
+.cus-height{
+    height: 85vh;
+}
+
+.nav-item{
+    margin-right: 10px;
+}
+
+
+.nav-link{
+    color: white;
+}
+.nav-link:hover{
+    color: gold;
+    transition: 0.4s;
+}
+
+.nav-item .active{
+    color: white!important;
+}
+
+.nav-item .active:hover{
+    color: gold!important;
+    transition: 0.4s;
+}
+/* banner css */
+
+.b-inner h5{
+    color: #008ed6;
+    font-size: 14px ;
+    font-weight: 700 ;
+    text-transform: uppercase;
+   
+   
+}
+
+.b-inner h1{
+        font-size: 50px;
+        line-height: 60px;
+        color: #fff;
+        font-weight: 700;
+}
+
+.b-inner p {
+    color: #fff;
+    line-height: 26px;
+    width: 88%;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.btns a{
+    padding: 10px 20px;
+    border-radius: 4px;
+    color: rgb(255 255 255);
+    
+
+}
+.btns .btn-primary{
+     background: #008ed6;
+     border: 1px solid #008ed6;
+     transition: 0.6s;
+
+}
+.btns .btn-primary:hover{
+     background: transparent;
+     border: 1px solid #ebebeb;
+     transition: 0.6s;
+
+}
+.btns .btn-info{
+    background: transparent;
+    border: 1px solid #ebebeb;
+    transition: 0.6s;
+
+    
+}
+.btns .btn-info:hover{
+    background:  #008ed6;
+    border: 1px solid #008ed6;
+    transition: 0.6s;
+
+    
+}
+
+/* list section css */
+
+.list-section{
+    padding: 50px 0px 38px 0px;
+    text-align: center;
+    margin-bottom: 20px;
+    border-bottom: 1px solid rgb(215 215 215);
+}
+
+.list-section h5{
+    color: #008ed6;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.list-section h2{
+    font-size: 35px;
+    font-weight: 700;
+}
+.list-section .line{
+    margin-left: auto ;
+    margin-right:auto ;
+    border-bottom: 3px solid #578bd1 ;
+    width: 5%;
+    padding-bottom: 20px;
+    transition: 0.6s;
+}
+.list-section:hover .line{
+    width: 10%;
+    transition: 0.6s;
+
+}
+.list-section .inner{
+    padding-top: 50px;
+}
+    
+.list-section .icon i{
+        font-size: 30px;
+        color: #008ed6;
+        background-color: white !important;
+        width: 88px;
+        height: 88px;
+        border: 2px solid rgb(214, 214, 214);
+        border-radius: 50%;
+        padding-top: 26px;
+        margin-bottom: 20px;
+}
+
+h3{
+    font-size: 22px;
+    color: #1a1a1a;
+}
+
+.p-inner{
+    width: 86%;
+    margin-left: auto ;
+    margin-right: auto ;
+}
+/* mbl section css */
+
+.mbl-section{
+    padding-top: 50px;
+
+}
+
+.heading-part{
+padding-top: 35px;
+}
+
+img{
+    vertical-align: middle;
+}
+.heading-part h5{
+    color: #008ed6;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 15px;
+
+}
+.heading-part h2{
+    font-size: 35px;
+    font-weight: 700;
+}
+.mbl-section .line2{
+     border-bottom: 3px solid #578bd1 ;
+    width: 10%;
+    padding-bottom: 20px;
+    transition: 0.6s;
+  
+}
+.mbl-section:hover .line2{
+    width: 25%;
+    transition: 0.6s;
+  }
+.mbl-section p{
+    width: 88%;
+    padding-top: 25px;
+    margin-bottom: 25px;
+
+}
+.mbl-section .one{
+    margin-bottom: 10px ;
+
+}
+.mbl-section .one i{
+        font-size: 18px;
+        color: #008ed6;
+        margin-bottom: 10px;
+
+}
+
+/* customize css */
+
+.customize{
+    padding: 100px;
+    background: #f2f2f2;
+}
+.dip-part{
+    margin-top: auto;
+    margin-bottom: auto;
+
+}
+.customize h5{
+    color: #008ed6;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 15px;
+
+}
+.customize h2{
+    font-size: 35px;
+    font-weight: 700;
+}
+.customize .line3{
+    border-bottom: 3px solid #578bd1 ;
+   width: 10%;
+   padding-bottom: 20px;
+   transition: 0.6s;
+ 
+}
+.customize:hover .line3{
+    width: 20%;
+    transition: 0.6s;
+}
+.customize p{
+    padding-top: 25px;
+    width: 88%;
+}
+.customize img{
+    width: 100%;
+}
